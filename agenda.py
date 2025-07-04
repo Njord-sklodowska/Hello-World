@@ -13,7 +13,7 @@ class Agenda():
                 contact = {"name" : self.name , "phone": self.phone, "e-mail": self.mail}
                 self.crear_contact.append(contact)
                 print("contacto registrado!!!!")
-
+            #esto es para eliminar cuando me peleo con un contacto
             elif option == 2:
                 name = input("ingresa el contacto a borrar \n")
                 for contact in self.crear_contact:
